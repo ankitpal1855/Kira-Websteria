@@ -14,13 +14,13 @@ def submit_form():
         phone = data['phone']
 
         # Your Gmail credentials
-        sender_email = "myid@gmail.com"
+        sender_email = "testingap1855@gmail.com"
         receiver_email = "ap349500@gmail.com"
-        password = "mypassword"
+        password = "hyrktcncbubpkrdx"
 
         # Email content
-        subject = "Web App Submission"
-        message = f"Name: {name}\nEmail: {email}\nPhone: {phone}"
+        subject = "Kira Websteria Submission"
+        message = f"Name: {name}\n\nEmail: {email}\n\nPhone: {phone}"
 
         # Create MIMEText object
         msg = MIMEText(message)
